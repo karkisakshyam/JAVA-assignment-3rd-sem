@@ -1,12 +1,10 @@
-// WAP showing database connection.
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseConnection {
     public static void main(String[] args) {
         try {
-            String url = "jdbc:mysql://localhost:3306/testdb";
+            String url = "jdbc:mysql://localhost:3306/";
             String user = "root";
             String password = "";
 

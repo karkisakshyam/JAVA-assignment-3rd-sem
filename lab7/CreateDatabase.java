@@ -10,6 +10,7 @@ public class CreateDatabase {
             String password = "";
 
             Connection con = DriverManager.getConnection(url, user, password);
+
             Statement st = con.createStatement();
 
             st.executeUpdate("CREATE DATABASE studentdb");
